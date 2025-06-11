@@ -59,5 +59,5 @@ startButton.addEventListener('click', () => {
 });
 
 gameButton.addEventListener('click', () => {
-  window.location.href = "jogos/jogo1.html";
+  window.location.href = "jogos/jogo2.html";
 });
