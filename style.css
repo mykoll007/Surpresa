@@ -1,15 +1,15 @@
 body {
 font-family: 'Poppins';
-    background: #111;
-    color: #fff;
+    background: #fff0f6;
+    color: #c71585;;
     text-align: center;
     padding-top: 400px;
-    font-size: 67px;
+    font-size: 57px;
 }
 
 button {
   font-family: 'Poppins';
-font-size: 43px;
+  font-size: 43px;
     text-align: center;
     padding: 10px 20px;
     background-color: #ff69b4;

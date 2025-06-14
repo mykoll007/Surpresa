@@ -11,8 +11,26 @@
       background: #fff0f6;
       margin: 0;
       padding: 20px 10px;
+      text-align: center;
       color: #c71585;
     }
+        #backButton {
+      display: inline-block;
+      font-size: 16px;
+      text-decoration: none;
+      color: #c71585;
+      background-color: #fff;
+      padding: 10px 15px;
+      border-radius: 15px;
+      box-shadow: 0 3px 10px rgba(199, 21, 133, 0.3);
+      transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    #backButton:hover {
+      background-color: #ffe4e1;
+      box-shadow: 0 5px 15px rgba(199, 21, 133, 0.5);
+    }
+
     h1 {
       font-size: 30px;
       margin-bottom: 20px;
@@ -145,6 +163,9 @@
   </style>
 </head>
 <body>
+  <a href="../index.html" id="backButton">
+   Voltar para o início
+  </a>
   <h1>Jogo da Memória Romântico 💖</h1>
   <h1>Mykoll e Paolla 💖</h1>
 
